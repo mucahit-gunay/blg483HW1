@@ -12,8 +12,7 @@ A scalable web crawler with indexing, TF-IDF search, back pressure controls, and
 
 ```bash
 # Clone the repository
-git clone <repo-url>
-cd hw1
+git clone https://github.com/mucahit-gunay/blg483HW1
 
 # Create virtual environment (recommended)
 python3 -m venv venv
