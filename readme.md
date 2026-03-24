@@ -82,9 +82,5 @@ The crawl state (jobs, pages, queue) is stored in SQLite. If the server is stopp
 | Endpoint | Method | Description |
 |----------|--------|-------------|
 | `/api/index` | POST | Start a crawl job `{"url": "...", "depth": 2}` |
-| `/api/search` | GET | Search indexed pages (TF-IDF) `?q=query` |
 | `/search` | GET | Search with relevance scoring `?query=...&sortBy=relevance` |
 | `/api/export` | POST | Export word frequencies to `data/storage/p.data` |
-| `/api/status` | GET | System status and back pressure metrics |
-| `/api/jobs` | GET | List all crawl jobs |
-| `/api/jobs/{id}/stop` | POST | Stop a running job |
